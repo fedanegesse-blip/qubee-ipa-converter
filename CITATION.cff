@@ -1,0 +1,27 @@
+# YAML 1.2
+# CITATION.cff for the Qubee-IPA-Converter
+# https://citation-file-format.github.io/
+
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata from this file."
+title: "Qubee-IPA-Converter: A Python Library for Converting Oromo Qubee to IPA"
+abstract: "A Python library for converting Oromo Qubee orthography to International Phonetic Alphabet (IPA) with built-in quality control. Designed for speech processing, TTS, and computational linguistics."
+authors:
+  - family-names: "Negesse"
+    given-names: "Feda"
+    email: "feda.negesse@aau.edu.et"
+    affiliation: "Speech and Text Computing Group, Department of Linguistics and Philology, Addis Ababa University"
+version: 0.1.0
+date-released: 2024-07-11
+license: "MIT"
+repository-code: "https://github.com/fedanegesse-blip/qubee-ipa-converter"
+url: "https://github.com/fedanegesse-blip/qubee-ipa-converter"
+keywords:
+  - oromo
+  - qubee
+  - ipa
+  - phonetics
+  - nlp
+  - speech
+  - ethiopian-languages
+
