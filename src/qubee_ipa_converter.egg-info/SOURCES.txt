@@ -1,0 +1,11 @@
+pyproject.toml
+src/qubee_ipa/__init__.py
+src/qubee_ipa/cli.py
+src/qubee_ipa/core.py
+src/qubee_ipa/rules.py
+src/qubee_ipa_converter.egg-info/PKG-INFO
+src/qubee_ipa_converter.egg-info/SOURCES.txt
+src/qubee_ipa_converter.egg-info/dependency_links.txt
+src/qubee_ipa_converter.egg-info/entry_points.txt
+src/qubee_ipa_converter.egg-info/requires.txt
+src/qubee_ipa_converter.egg-info/top_level.txt

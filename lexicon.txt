@@ -1,0 +1,30 @@
+# Oromo Pronunciation Dictionary
+# Generated using qubee-ipa-converter
+# Words flagged with '#' have potential issues
+
+oromo	o r o m o
+sagalee	s a g a l eː
+maqaa	m a kʼ aː
+afaan	a f aː n
+kitaaba	k i t aː b a
+nama	n a m a
+dhuma	ɗ u m a
+nyabuu	ɲ a b uː
+shuuguu	ʃ uː g uː
+chitu	tʃ i t u
+caasaa	tʃʼ aː s aː
+xaana	tʼ aː n a
+qabaa	kʼ a b aː
+phapha	pʼ a pʼ a
+jiru	dʒ i r u
+akka	a kː a
+buna	b u n a
+farda	f a r d a
+gurraacha	g u rː aː tʃ a
+adii	a d iː
+# diiimaa	d iː i m aː  # FLAG: has more than 2 consecutive vowels
+korma	k o r m a
+sa'a	s a ʔ a
+hoolaa	h oː l aː
+wayin	w a j i n
+bisaa	b i s aː

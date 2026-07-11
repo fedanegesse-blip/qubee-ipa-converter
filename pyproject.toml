@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qubee-ipa-converter"
+version = "0.1.0"
+description = "Convert Oromo Qubee orthography to IPA with quality control for speech processing"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Feda Negesse", email = "feda.negesse@aau.edu.et"},
+]
+maintainers = [
+    {name = "Feda Negesse", email = "feda.negesse@aau.edu.et"},
+]
+keywords = ["oromo", "qubee", "ipa", "phonetics", "nlp", "speech"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=22.0",
+    "mypy>=0.990",
+]
+
+[project.urls]
+Homepage = "https://github.com/fedanegesse/qubee-ipa-converter"
+Repository = "https://github.com/fedanegesse/qubee-ipa-converter"
+Issues = "https://github.com/fedanegesse/qubee-ipa-converter/issues"
+
+[project.scripts]
+qubee-to-ipa = "qubee_ipa.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38', 'py39', 'py310', 'py311']
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"

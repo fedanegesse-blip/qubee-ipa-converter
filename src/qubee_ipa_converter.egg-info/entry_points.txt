@@ -1,0 +1,2 @@
+[console_scripts]
+qubee-to-ipa = qubee_ipa.cli:main
